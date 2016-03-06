@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	on the command line : diff file_versions_1 file_versions_2
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	use the version control tool in time
+
+Why do you think are the pros and cons of manually choosing when to create a commit,like you do in Git,vs having versions automatically saved,like Google Docs does?
+	can make the commit more logical and less
+
+How can you use the commands git log and git diff to view the history of files?
+	git log is to check the commit history,and git diff can see the different between two commit
+
+Git Errors and Warnings Solution
+	should not be doing an octopus
+	Octopus 是Git使用联合许多不同版本代码的一种策略，如果你在不正确的情况下使用，就会出现这个信息。
+
+	you are in 'detached HEAD'state
+	HEAD 是你当前的提交，你可以离开HEAD通过切换到前一个提交。出现这个信息只是提醒你当前正在detached HEAD
+
+	Panic(the 'impossible'happened)
+	是Haskell语言编译器GHC的一个错误信息
+
+git log: 查看已提交版本
+git diff: 比较任意两个版本间的区别
+git checkout :切换至历史版本
+git clone: 复制整个Git项目，包括历史版本信息
+
+How might using version control make you more confident to make changes that could break something?
+	i can switching to the previous version and find out where the error happened by using git diff
+
+Now that you have your workspace set up,what do you want to try using Git for?
+	coding
