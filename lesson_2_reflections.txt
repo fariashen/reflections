@@ -1,0 +1,10 @@
+What happens when you initialize a repository?Why do you need to do it?
+	show a message "Initialized empty Git repository in F:/Udacity/How to use git and github/version-control/reflections/.git/"
+
+git init :创建git库
+git status :查看已提交的文件和未提交的文件
+git add :添加文件到staging area
+git reset ：将文件从staging area撤回
+
+How is the staging area different from the working directory and the repository?What value do you think it offers?
+	staging area is a status of readying to be commit,分离 with the file that not prepare to commit
