@@ -4,7 +4,26 @@ What happens when you initialize a repository?Why do you need to do it?
 git init :创建git库
 git status :查看已提交的文件和未提交的文件
 git add :添加文件到staging area
-git reset ：将文件从staging area撤回
+git reset --hard：将修改的文件撤回至未修改状态
 
 How is the staging area different from the working directory and the repository?What value do you think it offers?
 	staging area is a status of readying to be commit,分离 with the file that not prepare to commit
+
+git diff：查看working directory 和 staging area里的文件的不同
+git diff --staged：查看staging area 和最近一次提交里文件的不同
+git commit：将staging area 里的文件提交
+
+How can you use the staging area to make sure you have one commit per logical change?
+	when i have made a logical change, i use command git add <> ,add a file to staging area,and than i can use the command git diff --staged,to see if the logical change have commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When i have the different version of a project,then the branches will be helpful,it can 区分 the main branch with the other,and i can switch to the other branchs if i want
+
+How do the diagrams help you visualize the branch structure?
+
+git merge：整合分支
+
+What is the result of merging two branches together? Why do we represent it in diagram the way we do?
+
+what are the pros and cons of Git's automatic merging vs.always doing merges manually?
+
